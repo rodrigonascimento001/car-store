@@ -1,0 +1,11 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: br.com.rodrigo.nascimento.handler.Handler
+      CodeUri: C:\Users\rodrigo.nascimento\Desktop\development\projetos\car-store-project
+      Runtime: java11
+      Architectures:
+        - x86_64
